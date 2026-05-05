@@ -1,0 +1,124 @@
+body{
+    background-color:bisque;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.welcome-text{
+    color: brown;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+.to-do-container{
+    background: aliceblue;
+    padding: 30px;
+    width: 450px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);   
+}
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: crimson;
+}
+.input-section{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#inputTask{
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+#inputTask:focus{
+    border-color:black;
+}
+#btnTask{
+    width: 50px;
+    background-color: darkgreen;
+    color: antiquewhite;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+}
+#btnTask:hover{
+    background: lightgreen;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+li{
+    background: palevioletred;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-button{
+    display: flex;
+    gap: 8px;
+}
+.edit-button{
+    background: #ffa502;
+    color: aliceblue;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease ;
+}
+.edit-button:hover{
+    background: lightblue;
+    transform: scale(1.2);
+}
+.delete-button{
+    background: orangered;
+    color: aliceblue;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease ;
+}
+.delete-button:hover{
+    background: red;
+    transform: scale(1.2);
+}
+.gitHub-profile{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    transition: transform 0.3s ease, background 0.3s ease ;
+}
+.gitHub-profile:hover{
+    transform: scale(1.2);
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
